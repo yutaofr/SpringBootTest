@@ -1,13 +1,11 @@
 package net.syt.boot
 
-import org.junit.runner.RunWith
-import org.scalatest.FunSuite
-import org.springframework.test.context.junit4.SpringRunner
+import org.scalatest.funsuite.AnyFunSuite
 
-//@RunWith(classOf[SpringRunner])
-//@SpringBootTest()
-class TestTest extends FunSuite {
+class TestTest extends AnyFunSuite {
 
-
+  test("AppBootstrap") {
+    Test.main(Array[String]())
+  }
 
 }
