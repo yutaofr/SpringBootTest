@@ -9,8 +9,8 @@ Roadmap:
 mvn spring-boot:run
 ```
 
-* []test any autowire service (injection into the application)
-* []test access to any DB
+* [X]test any autowire service (injection into the application)
+* []test access to any DB -- optional
 * []test access to any Queue
 * []delivery as container
 
