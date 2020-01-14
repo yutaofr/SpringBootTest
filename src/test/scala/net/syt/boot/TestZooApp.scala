@@ -2,10 +2,10 @@ package net.syt.boot
 
 import org.scalatest.funsuite.AnyFunSuite
 
-class TestTest extends AnyFunSuite {
+class TestZooApp extends AnyFunSuite {
 
   test("AppBootstrap") {
-    Test.main(Array[String]())
+    ZooApp.main(Array[String]())
   }
 
 }

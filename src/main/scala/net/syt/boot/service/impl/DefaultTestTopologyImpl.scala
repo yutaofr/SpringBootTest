@@ -10,7 +10,7 @@ class DefaultTestTopologyImpl extends TestTopology {
 
   override def playWithAnimal(): Unit = {
     import net.syt.boot.domain.service.FlyOpe._
-    import net.syt.boot.domain.service.AnimalFeatures._
+    import net.syt.boot.domain.service.AnimalCouldFly._
     val bird = Bird("Eagle")
     bird.fly
   }

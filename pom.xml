@@ -72,7 +72,7 @@
                     <!-- If you have classpath issue like NoDefClassError,... -->
                     <!-- useManifestOnlyJar>false</useManifestOnlyJar -->
                     <includes>
-                        <include>**/*net.syt.boot.Test.*</include>
+                        <include>**/*net.syt.boot.ZooApp.*</include>
                         <include>**/*Suite.*</include>
                     </includes>
                 </configuration>
@@ -151,7 +151,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>net.syt.boot.Test</mainClass>
+                    <mainClass>net.syt.boot.ZooApp</mainClass>
                 </configuration>
             </plugin>
 

@@ -1,7 +1,8 @@
 package net.syt.boot.domain.entity
 
 /**
- * ADT, no operation or method should be included
+ * ADT, no operation or method should be included,
+ * Animal is a Sum type
  */
 sealed trait Animal
 

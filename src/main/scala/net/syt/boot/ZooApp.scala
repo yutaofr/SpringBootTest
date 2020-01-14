@@ -6,7 +6,7 @@ import org.springframework.boot.{CommandLineRunner, SpringApplication}
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
-class Test extends CommandLineRunner {
+class ZooApp extends CommandLineRunner {
 
   @Autowired
   var testTopology: TestTopology = _
@@ -17,8 +17,8 @@ class Test extends CommandLineRunner {
   }
 }
 
-object Test extends App {
+object ZooApp extends App {
   override def main(args: Array[String]): Unit = {
-    SpringApplication run (classOf[Test], args: _*)
+    SpringApplication run (classOf[ZooApp], args: _*)
   }
 }
