@@ -13,7 +13,7 @@ mvn spring-boot:run
 * [X]test ad hoc polymophisme with Type class and ADT
 * []test access to any DB -- optional
 * []test access to any Queue
-* []delivery as container (https://spring.io/guides/gs/spring-boot-docker/)
+* [X]delivery as container (https://spring.io/guides/gs/spring-boot-docker/)
 
 Build the application
 ```
@@ -35,8 +35,16 @@ docker build -t syt/zoo-app-docker .
 Run the image instance
 ```
 docker run -t syt/zoo-app-docker
-
 ```
+
+* [X] Remote Debugging using IntelliJ
+
+Debugging the application in a Docker container
+```
+docker run -e "JAVA_TOOL_OPTIONS=-agentlib:jdwp=transport=dt_socket,address=5005,server=y,suspend=n" -p 5005:5005 -t syt/zoo-app-docker
+```
+
+From IntelliJ, follow the instruction https://docs.alfresco.com/5.2/tasks/sdk-debug-intellij.html
 
 Note:
 -----
