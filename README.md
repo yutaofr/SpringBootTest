@@ -13,6 +13,7 @@ mvn spring-boot:run
 * [X] test ad hoc polymophisme with Type class and ADT
 * [ ] test access to any DB -- optional
 * [ ] test access to any Queue
+* [ ] keep the application running
 * [X] delivery as container (https://spring.io/guides/gs/spring-boot-docker/)
 
 Build the application
