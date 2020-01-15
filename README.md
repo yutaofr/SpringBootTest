@@ -20,7 +20,23 @@ Build the application
  mvn package && java -jar target/SpringBootTest-0.1-SNAPSHOT.jar
 ```
 
+Add Dockerfile to the project root path
+```
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
+```
 
+Build the docker image, tag it as syt/zoo-app-docker
+```
+docker build -t syt/zoo-app-docker .
+```
+Run the image instance
+```
+docker run -t syt/zoo-app-docker
+
+```
 
 Note:
 -----
