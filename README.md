@@ -9,11 +9,11 @@ Roadmap:
 mvn spring-boot:run
 ```
 
-* [X]test any autowire service (injection into the application)
-* [X]test ad hoc polymophisme with Type class and ADT
-* []test access to any DB -- optional
-* []test access to any Queue
-* [X]delivery as container (https://spring.io/guides/gs/spring-boot-docker/)
+* [X] test any autowire service (injection into the application)
+* [X] test ad hoc polymophisme with Type class and ADT
+* [] test access to any DB -- optional
+* [] test access to any Queue
+* [X] delivery as container (https://spring.io/guides/gs/spring-boot-docker/)
 
 Build the application
 ```
