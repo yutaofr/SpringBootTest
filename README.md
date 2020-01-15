@@ -15,6 +15,11 @@ mvn spring-boot:run
 * []test access to any Queue
 * []delivery as container (https://spring.io/guides/gs/spring-boot-docker/)
 
+Build the application
+```
+ mvn package && java -jar target/SpringBootTest-0.1-SNAPSHOT.jar
+```
+
 
 
 Note:
