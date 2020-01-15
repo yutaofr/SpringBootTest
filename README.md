@@ -3,7 +3,7 @@
 Roadmap:
 --------
 
-* [X]init a new spring boot application
+* [X] init a new spring boot application
 
 ```
 mvn spring-boot:run
